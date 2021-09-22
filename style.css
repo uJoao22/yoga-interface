@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 350px;
+    padding: 30px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.img-yoga{
+    display: block;
+    margin: 0 auto 70px auto;
+}
+
+input{
+    display: block;
+    margin: 0 auto 20px auto;
+    background-color: #F7F7F7;
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.6);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 320px;
+    height: 46px;
+}
+
+input::placeholder{ /* Estilizando um placeholder */
+    font-size: 13px;
+    line-height: 25px;
+    color: #969696;
+}
+
+.forgot-password{
+    display: block;
+    margin: 15px 0 30px 0;
+    width: 320px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 15px;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+button{
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 120px;
+    height: 40px;
+    background-color: #0f0f0f;
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.link-signup{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #d1d1d1;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.link-signup strong{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p{
+    display: block;
+    margin: 20px 0 25px 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+.social-links{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-links a:nth-child(2){
+    margin: 0 15px;
+}
